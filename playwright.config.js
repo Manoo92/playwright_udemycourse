@@ -21,6 +21,9 @@ const config = ({
 
   reporter: 'html',
   use: {
+    launchOption: {
+      slowMo: 500,
+    },
     trace: 'on-first-retry',
   },
 
